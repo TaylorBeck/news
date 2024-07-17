@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hacker News Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="y-combinator-logo.svg" alt="Y" class="logo">
+      <span class="site-name">Hacker News</span>
+      <a href="#">new</a> |
+      <a href="#">past</a> |
+      <a href="#">comments</a> |
+      <a href="#">ask</a> |
+      <a href="#">show</a> |
+      <a href="#">jobs</a> |
+      <a href="#">submit</a>
+    </nav>
+    <a href="#" class="login">login</a>
+  </header>
+  
+  <main>
+    <ol id="news-list">
+      <!-- News items will be inserted here by JavaScript -->
+    </ol>
+    <button id="more-button">More</button>
+  </main>
+
+  <footer>
+    <a href="#">Guidelines</a> |
+    <a href="#">FAQ</a> |
+    <a href="#">Lists</a> |
+    <a href="#">API</a> |
+    <a href="#">Security</a> |
+    <a href="#">Legal</a> |
+    <a href="#">Apply to YC</a> |
+    <a href="#">Contact</a>
+    
+    <form>
+      <label for="search">Search:</label>
+      <input type="text" id="search" name="search">
+    </form>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
