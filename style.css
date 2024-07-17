@@ -1,0 +1,90 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  color: #828282;
+  background-color: #f6f6ef;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff6600;
+  padding: 2px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  border: 1px solid white;
+  margin-right: 8px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-name {
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+nav a {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+nav a, .login {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  padding: 0 10px 10px 10px;
+}
+
+ol {
+  padding-left: 30px;
+}
+
+.news-item {
+  margin-bottom: 5px;
+}
+
+.news-title {
+  color: black;
+  text-decoration: none;
+}
+
+.news-domain {
+  font-size: 8pt;
+  color: #828282;
+}
+
+.news-meta {
+  font-size: 7pt;
+  color: #828282;
+}
+
+#more-button {
+  margin-left: 30px;
+  font-size: 10pt;
+}
+
+footer {
+  border-top: 2px solid #ff6600;
+  text-align: center;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+footer a {
+  color: #828282;
+  text-decoration: none;
+}
+
+footer form {
+  margin-top: 10px;
+}
